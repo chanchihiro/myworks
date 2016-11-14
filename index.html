@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>ギャラリーページ</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="colorbox-master/example3/colorbox.css">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="imagesloaded.pkgd.min.js"></script>
+<script src="masonry.pkgd.min.js"></script>
+<script src="second.js"></script>
+</head>
+<body>
+
+<header class="page-header" role="banner">
+    <div class="inner">
+        <h1 class="site-logo">ちゃんちー</h1>
+        <form class="filter-form" id="gallery-filter">
+        	<span class="form-item">
+        		<input type="radio" name="filter" id="filter-all" value="all" checked>
+        		<label for="filter-all">All</label>
+        	</span>
+	       	<span class="form-item">
+        		<input type="radio" name="filter" id="filter-people" value="web">
+        		<label for="filter-people">Web</label>
+        	</span>
+           	<span class="form-item">
+        		<input type="radio" name="filter" id="filter-animals" value="dtp">
+        		<label for="filter-animals">DTP</label>
+        	</span>
+           	<span class="form-item">
+        		<input type="radio" name="filter" id="filter-nature" value="apri">
+        		<label for="filter-nature">Apri</label>
+        	</span>
+           	<span class="form-item">
+        		<input type="radio" name="filter" id="filter-plantes" value="magazine">
+        		<label for="filter-plantes">Magazine</label>
+        	</span>
+        </form>
+    </div>
+</header>
+
+<!-- <div class="left"></div> -->
+
+<div class="page-main" role="main">
+    <ul class="gallery" id="gallery"></ul>
+    <button type="" class="load-more" id="load-more">さらに読み込む</button>
+</div>
+
+
+<script src="colorbox-master/jquery.colorbox-min.js"></script>
+</body>
+</html>
