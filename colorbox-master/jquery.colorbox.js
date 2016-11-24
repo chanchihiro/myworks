@@ -11,18 +11,18 @@
 		// data sources
 		html: false,
 		photo: false,
-		iframe: false,
+		iframe: true,
 		inline: false,
 
 		// behavior and appearance
 		transition: "elastic",
 		speed: 300,
 		fadeOut: 300,
-		width: false,
-		initialWidth: "600",
-		innerWidth: false,
+		width: "100%",
+		initialWidth: "100%",
+		innerWidth: "50px",
 		maxWidth: false,
-		height: false,
+		height: "100%",
 		initialHeight: "450",
 		innerHeight: false,
 		maxHeight: false,

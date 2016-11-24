@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>ギャラリーページ</title>
+<title>2015-2016</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" type="text/css" href="colorbox-master/example3/colorbox.css">
 <script src="jquery-1.12.4.min.js"></script>
@@ -12,10 +12,19 @@
 <script src="second.js"></script>
 </head>
 <body>
-
+<script>
+    $(function() {
+    $(".iframe").colorbox({
+    iframe:true,
+    width:"100%",
+    height:"100%",
+    opacity: 0.7
+  });
+});
+</script>
 <header class="page-header" role="banner">
     <div class="inner">
-        <h1 class="site-logo">ちゃんちー</h1>
+        <h1 class="site-logo">2015-2016 作品集</h1>
         <form class="filter-form" id="gallery-filter">
         	<span class="form-item">
         		<input type="radio" name="filter" id="filter-all" value="all" checked>
@@ -49,6 +58,6 @@
 </div>
 
 
-<script src="colorbox-master/jquery.colorbox-min.js"></script>
+<script src="colorbox-master/jquery.colorbox.js"></script>
 </body>
 </html>

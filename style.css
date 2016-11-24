@@ -2,16 +2,17 @@
 
 /* Base */
 html { font-family: "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif; font-size: 14px; line-height: 1.5; height: 100%}
-body { background-color: #fff; color: rgb(0, 0, 0); height:100%;}
+body { background-color: #000; color: rgb(0, 0, 0); height:100%;}
 h1 { font-size: 100%; margin: 0; }
 img { vertical-align: middle; }
 
 /* Page header */
 .page-header {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0,0,0);
     border-bottom: 1px solid rgb(230, 230, 230);
     padding: 32px 0;
     width: 100%;
+    color: #fff;
 }
 .page-header > .inner {
     width: 950px;
@@ -130,4 +131,10 @@ img { vertical-align: middle; }
 .ato{
     background-color: #000;
     opacity: 1;
+}
+
+/***************************overlay*******/
+
+.inner{
+    color: #fff;
 }

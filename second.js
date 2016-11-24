@@ -55,10 +55,10 @@ $(function(){
 			$.each(slicedData,function(i,item){
 				var itemHTML = 
 					"<li class='gallery-item is-loading'>"+
-					"<a href='"+item.images.large+"'>"+
+					"<a href='"+item.url+"' class='iframe'>"+
 					"<img src='"+item.images.thumb+"' alt='"+item.title+"'>"+
 					"<span class='caption'>"+
-					"<span class='inner'>"+
+					"<span class='inner'>"+"<p>"+item.caption+"</p>"+
 					"</span>"+"</span>"+
 					"</a>"+"</li>";
 				elements.push($(itemHTML).get(0));
@@ -168,6 +168,7 @@ $(function(){
                 direction = Math.round((Math.atan2(y, x) * (180 / Math.PI) + 180) / 90  + 3) % 4;
             return direction;
         }
+        
 
 
 	});

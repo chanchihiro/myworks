@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.image{
+	width: 700px;
+}
+
+img{
+	margin: 10px 20px;
+}

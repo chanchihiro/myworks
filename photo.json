@@ -1,10 +1,12 @@
 [
     {
         "title": "soundsgood",
+        "caption":"頑張ります！",
+        "url":"sounds.html",
         "category":"apri",
         "images": {
             "thumb": "img/soundsgood2.png",
-            "large": "img/soundsgood2.png"
+            "large": "img/green.png"
         }
     },
     {
