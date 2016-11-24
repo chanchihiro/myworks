@@ -1,8 +1,6 @@
 $(function(){
 
 	$("#gallery").each(function(){
-
-
 		//乱数を設定する
 		// var val = Math.round( Math.random()*10);
 
@@ -95,6 +93,14 @@ $(function(){
 				$loadmorebutton.hide();
 			}
 
+			$(".iframe").colorbox({
+			    iframe:true,
+			    width:"100%",
+			    height:"130%",
+			    opacity: 0.7
+			});
+
+
 		}
 
 
@@ -168,7 +174,6 @@ $(function(){
                 direction = Math.round((Math.atan2(y, x) * (180 / Math.PI) + 180) / 90  + 3) % 4;
             return direction;
         }
-        
 
 
 	});

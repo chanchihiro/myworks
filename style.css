@@ -138,3 +138,7 @@ img { vertical-align: middle; }
 .inner{
     color: #fff;
 }
+
+#cboxContent{
+    width: 500px ;
+}

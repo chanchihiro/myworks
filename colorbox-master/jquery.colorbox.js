@@ -21,7 +21,7 @@
 		width: "100%",
 		initialWidth: "100%",
 		innerWidth: "50px",
-		maxWidth: false,
+		maxWidth: "80%",
 		height: "100%",
 		initialHeight: "450",
 		innerHeight: false,
