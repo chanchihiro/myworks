@@ -53,7 +53,7 @@ $(function(){
 			$.each(slicedData,function(i,item){
 				var itemHTML = 
 					"<li class='gallery-item is-loading'>"+
-					"<a href='"+item.url+"' class='iframe'>"+
+					"<a href='"+item.images.large+"' class=''>"+
 					"<img src='"+item.images.thumb+"' alt='"+item.title+"'>"+
 					"<span class='caption'>"+
 					"<span class='inner'>"+"<p>"+item.caption+"</p>"+
