@@ -25,12 +25,17 @@ img{
 
 .app{
 	width: 250px;
-	border:1px solid #000;
+	border:1px solid #888;
 }
 
 .web{
 	width: 700px;
-	border:2px solid #000;
+	border:2px solid #888;
+}
+
+.zine{
+	width: 600px;
+	border:2px solid #888;
 }
 
 .text{
@@ -49,5 +54,15 @@ p{
 
 #kaza{
 	width: 400px;
+}
+
+#toyou{
+	margin-bottom: 50px;
+}
+
+#you{
+	margin-bottom: 50px;
+	width: 560px;
+	height: 315px;
 }
 

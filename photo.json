@@ -64,32 +64,36 @@
         }
     },
     {
-        "title": "zine4",
+        "title": "regovol12",
         "category":"magazine",
+        "url":"rego.html",
         "images": {
-            "thumb": "img/zine4.jpg",
+            "thumb": "img/regovol12.jpg",
             "large": "img/zine4.jpg"
         }
     },
     {
-        "title": "zine5",
+        "title": "regovol11",
         "category":"magazine",
+        "url":"rego11.html",
         "images": {
-            "thumb": "img/zine5.jpg",
-            "large": "img/zine5.jpg"
+            "thumb": "img/zine1.jpg",
+            "large": "img/zine4.jpg"
         }
     },
     {
-        "title": "zine6",
+        "title": "yu",
         "category":"magazine",
+        "url":"brisk2.html",
         "images": {
             "thumb": "img/zine6.jpg",
             "large": "img/zine6.jpg"
         }
     },
     {
-        "title": "zine7",
+        "title": "brisk",
         "category":"magazine",
+        "url":"brisk.html",
         "images": {
             "thumb": "img/zine7.jpg",
             "large": "img/zine7.jpg"
@@ -100,7 +104,7 @@
         "category":"apri",
         "url":"mikke.html",
          "images": {
-            "thumb": "img/apri3.jpg",
+            "thumb": "img/apri2.png",
             "large": "img/apri3.jpg"
         }
     },
