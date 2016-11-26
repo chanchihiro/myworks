@@ -142,3 +142,9 @@ img { vertical-align: middle; }
 #cboxContent{
     width: 500px ;
 }
+
+.comment{
+    color: #fff;
+    text-align: center;
+    margin: 30px 0;
+}
