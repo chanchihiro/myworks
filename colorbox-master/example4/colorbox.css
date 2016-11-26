@@ -31,7 +31,7 @@
     #cboxMiddleLeft{width:25px; background:url(images/border2.png) repeat-y 0 0;}
     #cboxMiddleRight{width:25px; background:url(images/border2.png) repeat-y -25px 0;}
     #cboxContent{background:#fff; overflow:hidden;}
-        .cboxIframe{background:#fff;}
+        .cboxIframe{background:rgba(0,0,0,0);}
         #cboxError{padding:50px; border:1px solid #ccc;}
         #cboxLoadedContent{margin-bottom:20px;}
         #cboxTitle{position:absolute; bottom:0px; left:0; text-align:center; width:100%; color:#999;}

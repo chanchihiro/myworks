@@ -1,7 +1,7 @@
 [
     {
         "title": "soundsgood",
-        "caption":"頑張ります！",
+        "caption":"soundsgood",
         "url":"sounds.html",
         "category":"apri",
         "images": {
@@ -10,16 +10,9 @@
         }
     },
     {
-        "title": "soundsgood",
-        "category":"apri",
-        "images": {
-            "thumb": "img/soundsgood.png",
-            "large": "img/soundsgood.png"
-        }
-    },
-    {
         "title": "crazy",
         "category":"web",
+        "url":"crazy.html",
         "images": {
             "thumb": "img/crazy.png",
             "large": "img/crazy.png"
@@ -28,38 +21,16 @@
     {
         "title": "grume3",
         "category":"apri",
+        "url":"grume.html",
         "images": {
             "thumb": "img/grume3.jpg",
             "large": "img/grume3.jpg"
         }
     },
     {
-        "title": "grume2",
-        "category":"apri",
-        "images": {
-            "thumb": "img/grume2.jpg",
-            "large": "img/grume2.jpg"
-        }
-    },
-    {
-        "title": "grume",
-        "category":"apri",
-        "images": {
-            "thumb": "img/grume.jpg",
-            "large": "img/grume.jpg"
-        }
-    },
-    {
-        "title": "portfolio2",
-        "category":"web",
-        "images": {
-            "thumb": "img/portfolio2.png",
-            "large": "img/portfolio2.png"
-        }
-    },
-    {
         "title": "portfolio",
         "category":"web",
+        "url":"portfolio.html",
         "images": {
             "thumb": "img/portfolio.png",
             "large": "img/portfolio.png"
@@ -68,6 +39,7 @@
     {
         "title": "suzuri",
         "category":"web",
+        "url":"suzuri.html",
         "images": {
             "thumb": "img/suzuri.png",
             "large": "img/suzuri.png"
@@ -76,6 +48,7 @@
     {
         "title": "kanazawa",
         "category":"magazine",
+        "url":"kanazawa.html",
         "images": {
             "thumb": "img/kanazawa2.jpg",
             "large": "img/kanazawa2.jpg"
@@ -84,49 +57,10 @@
     {
         "title": "uni",
         "category":"web",
+        "url":"unishare.html",
         "images": {
             "thumb": "img/uni1.png",
             "large": "img/uni1.png"
-        }
-    },
-    {
-        "title": "uni2",
-        "category":"web",
-        "images": {
-            "thumb": "img/uni2.png",
-            "large": "img/uni2.png"
-        }
-    },
-    {
-        "title": "uni3",
-        "category":"web",
-        "images": {
-            "thumb": "img/uni3.png",
-            "large": "img/uni3.png"
-        }
-    },
-    {
-        "title": "uni4",
-        "category":"web",
-        "images": {
-            "thumb": "img/uni4.png",
-            "large": "img/uni4.png"
-        }
-    },
-    {
-        "title": "zine2",
-        "category":"magazine",
-        "images": {
-            "thumb": "img/zine2.jpg",
-            "large": "img/zine2.jpg"
-        }
-    },
-    {
-        "title": "zine3",
-        "category":"magazine",
-        "images": {
-            "thumb": "img/zine3.jpg",
-            "large": "img/zine3.jpg"
         }
     },
     {
@@ -162,25 +96,10 @@
         }
     },
     {
-        "title": "apri1",
-        "category":"apri",
-        "images": {
-            "thumb": "img/apri1.jpg",
-            "large": "img/apri1.jpg"
-        }
-    },
-    {
-        "title": "apri2",
-        "category":"apri",
-        "images": {
-            "thumb": "img/apri2.png",
-            "large": "img/apri2.png"
-        }
-    },
-    {
         "title": "apri3",
         "category":"apri",
-        "images": {
+        "url":"mikke.html",
+         "images": {
             "thumb": "img/apri3.jpg",
             "large": "img/apri3.jpg"
         }
@@ -244,6 +163,7 @@
     {
         "title": "web1",
         "category":"web",
+        "url":"project.html",
         "images": {
             "thumb": "img/web1.jpg",
             "large": "img/web1.jpg"
@@ -252,33 +172,19 @@
     {
         "title": "web2",
         "category":"web",
+        "url":"dbsh.html",
         "images": {
             "thumb": "img/web2.jpg",
             "large": "img/web2.jpg"
         }
     },
     {
-        "title": "web3",
-        "category":"web",
-        "images": {
-            "thumb": "img/web3.jpg",
-            "large": "img/web3.jpg"
-        }
-    },
-    {
         "title": "web4",
         "category":"web",
+        "url":"fashion.html",
         "images": {
             "thumb": "img/web4.png",
             "large": "img/web4.png"
-        }
-    },
-    {
-        "title": "web5",
-        "category":"web",
-        "images": {
-            "thumb": "img/web5.png",
-            "large": "img/web5.png"
         }
     }
 ]

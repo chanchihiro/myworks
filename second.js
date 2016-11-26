@@ -53,7 +53,7 @@ $(function(){
 			$.each(slicedData,function(i,item){
 				var itemHTML = 
 					"<li class='gallery-item is-loading'>"+
-					"<a href='"+item.images.large+"' class=''>"+
+					"<a href='"+item.url+"' class='iframe'>"+
 					"<img src='"+item.images.thumb+"' alt='"+item.title+"'>"+
 					"<span class='caption'>"+
 					"<span class='inner'>"+"<p>"+item.caption+"</p>"+
@@ -77,8 +77,9 @@ $(function(){
 			//colorboxの起動
 			$(function(){
 				$("a").colorbox({
-					maxWidth:"75%",
-					maxHeight:"75%"
+					maxWidth:"85%",
+					maxHeight:"100%",
+					"background-color":"rgba(0,0,0,0)"
 				});
 			});
 
