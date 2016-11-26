@@ -109,56 +109,72 @@
         }
     },
     {
-        "title": "dtp1",
+        "title": "dbsh",
         "category":"dtp",
+        "url":"dbshlogo.html",
         "images": {
             "thumb": "img/dtp1.jpg",
             "large": "img/dtp1.jpg"
         }
     },
     {
-        "title": "dtp2",
+        "title": "HMV",
         "category":"dtp",
+        "url":"hmv.html",
         "images": {
             "thumb": "img/dtp2.jpg",
             "large": "img/dtp2.jpg"
         }
     },
     {
-        "title": "dtp3",
+        "title": "mikke! プレゼン資料",
         "category":"dtp",
+        "url":"mikkepre.html",
         "images": {
             "thumb": "img/dtp3.png",
             "large": "img/dtp3.png"
         }
     },
     {
-        "title": "dtp4",
+        "title": "birthday",
         "category":"dtp",
+        "url":"birth.html",
         "images": {
             "thumb": "img/dtp4.jpg",
             "large": "img/dtp4.jpg"
         }
     },
     {
-        "title": "dtp5",
+        "title": "seiseki",
         "category":"dtp",
+        "url":"seiseki.html",
         "images": {
             "thumb": "img/dtp5.jpg",
             "large": "img/dtp5.jpg"
         }
     },
     {
-        "title": "dtp6",
+        "title": "tama",
         "category":"dtp",
+        "url":"tama.html",
         "images": {
             "thumb": "img/dtp6.jpg",
             "large": "img/dtp6.jpg"
         }
     },
     {
-        "title": "dtp7",
+        "title": "yodare",
         "category":"dtp",
+        "url":"yodare.html",
+        "images": {
+            "thumb": "img/dtp8.jpg",
+            "large": "img/dtp8.jpg"
+        }
+    },
+    {
+        "title": "hujita",
+        "category":"dtp",
+        "url":"hujita.html",
         "images": {
             "thumb": "img/dtp7.jpg",
             "large": "img/dtp7.jpg"
