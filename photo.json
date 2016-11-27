@@ -11,6 +11,7 @@
     },
     {
         "title": "crazy",
+        "caption":"web hackathon",
         "category":"web",
         "url":"crazy.html",
         "images": {
@@ -20,6 +21,7 @@
     },
     {
         "title": "grume3",
+        "caption":"ぐるめ",
         "category":"apri",
         "url":"grume.html",
         "images": {
@@ -29,6 +31,7 @@
     },
     {
         "title": "portfolio",
+        "caption":"ポートフォリオ",
         "category":"web",
         "url":"portfolio.html",
         "images": {
@@ -39,6 +42,7 @@
     {
         "title": "suzuri",
         "category":"web",
+        "caption":"suzuriグローバルナビゲーション",
         "url":"suzuri.html",
         "images": {
             "thumb": "img/suzuri.png",
@@ -48,6 +52,7 @@
     {
         "title": "kanazawa",
         "category":"magazine",
+        "caption":"金沢zine / ロゴ",
         "url":"kanazawa.html",
         "images": {
             "thumb": "img/kanazawa2.jpg",
@@ -57,6 +62,7 @@
     {
         "title": "uni",
         "category":"web",
+        "caption":"Uni-share vol.13特設サイト",
         "url":"unishare.html",
         "images": {
             "thumb": "img/uni1.png",
@@ -66,6 +72,7 @@
     {
         "title": "regovol12",
         "category":"magazine",
+        "caption":"Re:Go vol.10",
         "url":"rego.html",
         "images": {
             "thumb": "img/regovol12.jpg",
@@ -75,6 +82,7 @@
     {
         "title": "regovol11",
         "category":"magazine",
+        "caption":"Re:Go vol.11",
         "url":"rego11.html",
         "images": {
             "thumb": "img/zine1.jpg",
@@ -85,6 +93,7 @@
         "title": "yu",
         "category":"magazine",
         "url":"brisk2.html",
+        "caption":"温泉大好き",
         "images": {
             "thumb": "img/zine6.jpg",
             "large": "img/zine6.jpg"
@@ -94,6 +103,7 @@
         "title": "brisk",
         "category":"magazine",
         "url":"brisk.html",
+        "caption":"BRISK",
         "images": {
             "thumb": "img/zine7.jpg",
             "large": "img/zine7.jpg"
@@ -102,6 +112,7 @@
     {
         "title": "apri3",
         "category":"apri",
+        "caption":"mikke!",
         "url":"mikke.html",
          "images": {
             "thumb": "img/apri2.png",
@@ -111,6 +122,7 @@
     {
         "title": "dbsh",
         "category":"dtp",
+        "caption":"dbsh logo",
         "url":"dbshlogo.html",
         "images": {
             "thumb": "img/dtp1.jpg",
@@ -120,6 +132,7 @@
     {
         "title": "HMV",
         "category":"dtp",
+        "caption":"HMVフライヤー",
         "url":"hmv.html",
         "images": {
             "thumb": "img/dtp2.jpg",
@@ -129,6 +142,7 @@
     {
         "title": "mikke! プレゼン資料",
         "category":"dtp",
+        "caption":"mikkeプレゼン資料",
         "url":"mikkepre.html",
         "images": {
             "thumb": "img/dtp3.png",
@@ -138,6 +152,7 @@
     {
         "title": "birthday",
         "category":"dtp",
+        "caption":"birthday",
         "url":"birth.html",
         "images": {
             "thumb": "img/dtp4.jpg",
@@ -147,6 +162,7 @@
     {
         "title": "seiseki",
         "category":"dtp",
+        "caption":"聖蹟桜ケ丘の新しい看板提案",
         "url":"seiseki.html",
         "images": {
             "thumb": "img/dtp5.jpg",
@@ -156,6 +172,7 @@
     {
         "title": "tama",
         "category":"dtp",
+        "caption":"多摩アートナイト",
         "url":"tama.html",
         "images": {
             "thumb": "img/dtp6.jpg",
@@ -165,6 +182,7 @@
     {
         "title": "yodare",
         "category":"dtp",
+        "caption":"LINEスタンプ よだれくん",
         "url":"yodare.html",
         "images": {
             "thumb": "img/dtp8.jpg",
@@ -174,6 +192,7 @@
     {
         "title": "hujita",
         "category":"dtp",
+        "caption":"藤田ゼミ17期ドラマ上映会フライヤー",
         "url":"hujita.html",
         "images": {
             "thumb": "img/dtp7.jpg",

@@ -5,7 +5,7 @@ $(function(){
 	});
 	$("#filter-people").on("click",function(){
 		$(".comment").empty();
-		$(".comment").append("<h3>WEB</h3><p>ずっとsketch派でしたが、最近XDに乗り換えました。<br>Sketch / Adobe XD / Prott / Illustlator / Photoshop / HTML / CSS / Jade / javascript / jQuery</p>");
+		$(".comment").append("<h3>WEB</h3><p>ずっとsketch派でしたが、最近XDに乗り換えました。<br>Sketch / Adobe XD / Prott / Illustlator / Photoshop / HTML / CSS / SCSS / Jade / javascript / jQuery</p>");
 	});
 	$("#filter-animals").on("click",function(){
 		$(".comment").empty();
