@@ -202,6 +202,7 @@
     {
         "title": "web1",
         "category":"web",
+        "caption":"土橋ゼミプロジェクト一覧",
         "url":"project.html",
         "images": {
             "thumb": "img/web1.jpg",
@@ -211,6 +212,7 @@
     {
         "title": "web2",
         "category":"web",
+        "caption":"土橋ゼミ新入生募集ページ",
         "url":"dbsh.html",
         "images": {
             "thumb": "img/web2.jpg",
@@ -220,6 +222,7 @@
     {
         "title": "web4",
         "category":"web",
+        "caption":"ゼミ課題ファッションサイト",
         "url":"fashion.html",
         "images": {
             "thumb": "img/web4.png",
