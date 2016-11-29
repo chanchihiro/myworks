@@ -15,8 +15,8 @@ $(function(){
 
 		//オプションを設定しMasonryを準備
 		$container.masonry({
-			columnWidth:200, //カラムの幅を設定
-			gutter:15, //隙間の大きさを設定
+			columnWidth:280, //カラムの幅を設定
+			gutter:30, //隙間の大きさを設定
 			itemSelector:".gallery-item", //整列対象の設定
 			isAnimated: true, //スムースアニメーション設定
 			isFitWidth: true, //親要素の幅サイズがピッタリ
