@@ -130,6 +130,7 @@ button:hover{
     margin: auto;
     padding: 0 10px 100px;
     width: 900px;
+    position: relative;
 }
 
 
@@ -261,3 +262,21 @@ input{
 button > img{
     width: 500px;
 }
+
+#donguri{
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+    left: -150px;
+}
+
+#ham{
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+    right: -150px;
+}
+
+
+
+

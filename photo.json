@@ -1,5 +1,15 @@
 [
     {
+        "title": "portfolio",
+        "caption":"products",
+        "category":"web",
+        "url":"comic.html",
+        "images": {
+            "thumb": "img/crazy.png",
+            "large": "img/crazy.png"
+        }
+    },
+    {
         "title": "soundsgood",
         "caption":"soundsgood",
         "url":"sounds.html",
