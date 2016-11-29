@@ -1,3 +1,9 @@
+@font-face{
+    font-family: comic;
+    src :url(comic.otf)format("opentype");
+}
+
+
 @charset "UTF-8";
 
 /* Base */
@@ -7,10 +13,13 @@ body {
     color: rgb(0,0,0); 
     height:100%;
     margin: 0;
+    font-family: comic;
+    text-shadow: #fff 5px 5px 0px, #fff -5px 5px 0px,#fff 5px -5px 0px, #fff -5px -5px 0px;
     }
 h1 { 
     font-size: 100%;
     margin: 0; 
+    font-weight: normal;
     }
 img { vertical-align: middle; }
 
@@ -32,6 +41,7 @@ img { vertical-align: middle; }
     width: 950px;
     padding: 8px 10px;
     margin: auto;
+    font-weight: normal;
     text-shadow: #fff 5px 5px 0px, #fff -5px 5px 0px,#fff 5px -5px 0px, #fff -5px -5px 0px;
 
 }
@@ -42,6 +52,7 @@ img { vertical-align: middle; }
     margin: 0;
     padding: 0;
     display: inline-block;
+    font-weight: normal;
 }
 
 .left{
@@ -65,7 +76,7 @@ img { vertical-align: middle; }
 .filter-form label{
     cursor:pointer;
     display: inline-block;
-    font-weight: bold;
+    font-weight: normal;
     margin-left: 0em;
     padding:0 0.25em;
 }
@@ -131,9 +142,6 @@ img { vertical-align: middle; }
 
 /*マウスホバーで乗っかってる奴*/
 .gallery-item .caption{
-    background-image: url(comic.png);
-    -webkit-background-size: cover;
-    background-size: cover;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -145,6 +153,12 @@ img { vertical-align: middle; }
 .gallery-item img{
     width: 280px;
     border: 7px solid #000;
+}
+
+.shupan{
+    width: 100%;
+    height: 100%;
+    border:1px solid #000;
 }
 
 
@@ -160,8 +174,8 @@ img { vertical-align: middle; }
 
 /***************************overlay*******/
 
-.inner{
-    color: #000;
+.iner{
+    color: #fff;
 }
 
 #cboxContent{
@@ -171,11 +185,19 @@ img { vertical-align: middle; }
 .comment{
     color: #000;
     text-align: center;
-    margin: 50px 0 30px;
-    border : 7px solid #000;
-    font-weight: bold;
+    margin: 50px 0 70px;
+    font-weight: normal;
     background-color: #fff;
     position: relative;
+    overflow: visible;
+}
+
+#huki{
+    position: absolute;
+    width: 900px;
+    height: 250px;
+    top: -30px;
+    left: 0;
 }
 
 #dodon{
@@ -188,12 +210,13 @@ img { vertical-align: middle; }
 #goo{
     position: absolute;
     width: 250px;
-    top: -50px;
-    right: -240px;
+    top: 100px;
+    right: -220px;
 }
 
 h3{
     font-size: 30px;
+    font-weight: normal;
     padding: 0;
     margin: 20px 0 10px;
 }
