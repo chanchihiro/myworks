@@ -5,18 +5,18 @@ $(function(){
 	});
 	$("#filter-people").on("click",function(){
 		$(".namae").empty();
-		$(".namae").append("<h3>WEB</h3><p>ずっとsketch派でしたが、最近XDに乗り換えました。<br>Sketch / Adobe XD / Prott / Illustlator / Photoshop / HTML / CSS / SCSS / Jade / javascript / jQuery</p>");
+		$(".namae").append("<h3>WEB</h3><p>ずっとsketch派でしたが、最近XDに乗り換えました。<br>趣味はポートフォリオサイトをちまちまいじることです。<br>Sketch / Adobe XD / Prott / Illustlator / Photoshop / HTML / CSS / SCSS / Jade / javascript / jQuery</p>");
 	});
 	$("#filter-animals").on("click",function(){
 		$(".namae").empty();
-		$(".namae").append("<h3>DTP</h3><p>イラレをいじることが好きなのでロゴも作ったりしてステッカーを作るのが趣味です。<br>Illustlator / Photoshop / Drawing / Shooting</p>");
+		$(".namae").append("<h3>DTP</h3><p>イラレをいじることが好きなのでロゴも作ったりしてステッカーを作るのが趣味です。<br>ほかにもSUZURIの新商品発売の画像制作,公式グッズなども作ります。<br>Illustlator / Photoshop / Drawing / Shooting</p>");
 	});
 	$("#filter-nature").on("click",function(){
 		$(".namae").empty();
-		$(".namae").append("<h3>APPLICATION</h3><p>ハイブリッドモバイルアプリ開発サービスのMonacaを使用しています。<br>Monaca / Cordova / javascript / HTML / CSS / Prott / XD</p>");
+		$(".namae").append("<h3>APPLICATION</h3><p>ハイブリッドモバイルアプリ開発サービスのMonacaを使用しています。<br>実装より発想が得意なので簡単な実装で役立つものを作ります。<br>Monaca / Cordova / javascript / HTML / CSS / Prott / XD</p>");
 	});
 		$("#filter-plantes").on("click",function(){
 		$(".namae").empty();
-		$(".namae").append("<h3>ZINE</h3><p>雑誌がどちゃくそ好きで、毎月気に入った雑誌を4冊買うのが楽しみで生きています。<br>Illustlator / Photoshop / Interview / Communication</p>");
+		$(".namae").append("<h3>ZINE</h3><p>雑誌がどちゃくそ好きで、毎月気に入った雑誌を4冊買うのが楽しみで生きています。<br>嫌いな曜日は火曜日と金曜日です。週刊誌が出ないからです。<br>Illustlator / Photoshop / Interview / Communication</p>");
 	});
 });
