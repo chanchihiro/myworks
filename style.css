@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
 /* Base */
-html { font-family: "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif; font-size: 14px; line-height: 1.5; height: 100%}
+html { font-family: "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif; font-size: 14px; line-height: 1.5; height: 100%;margin: 0;}
 body { 
     background-color: #fff;
     color: rgb(0,0,0); 
     height:100%;
-/*    background-image: radial-gradient(#444 20%, transparent 0), radial-gradient(#444 20%, transparent 0);
-    background-position: 0 0, 10px 10px;
-    -webkit-background-size: 20px 20px;
-    background-size: 10px 10px;*/
+    margin: 0;
     }
-h1 { font-size: 100%; margin: 0; }
+h1 { 
+    font-size: 100%;
+    margin: 0; 
+    }
 img { vertical-align: middle; }
 
 /* Page header */
@@ -21,14 +21,27 @@ img { vertical-align: middle; }
     padding: 32px 0;
     width: 100%;
     color: #000;
+    background-image: radial-gradient(#444 20%, transparent 0), radial-gradient(#444 20%, transparent 0);
+    background-position: 0 0, 5px 5px;
+    -webkit-background-size: 10px 10px;
+    background-size: 10px 10px;
+    margin: 0;
+    height: 30px;
 }
 .page-header > .inner {
     width: 950px;
     padding: 8px 10px;
     margin: auto;
+    text-shadow: #fff 5px 5px 0px, #fff -5px 5px 0px,#fff 5px -5px 0px, #fff -5px -5px 0px;
+
 }
 .site-logo {
     line-height: 1;
+    text-shadow: #fff 5px 5px 0px, #fff -5px 5px 0px,#fff 5px -5px 0px, #fff -5px -5px 0px;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
 }
 
 .left{
@@ -118,7 +131,9 @@ img { vertical-align: middle; }
 
 /*マウスホバーで乗っかってる奴*/
 .gallery-item .caption{
-    background-color: rgba(0,0,0,0.9);
+    background-image: url(comic.png);
+    -webkit-background-size: cover;
+    background-size: cover;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -156,7 +171,7 @@ img { vertical-align: middle; }
 .comment{
     color: #000;
     text-align: center;
-    margin: 30px 0;
+    margin: 50px 0 30px;
     border : 7px solid #000;
     font-weight: bold;
     background-color: #fff;
@@ -168,6 +183,13 @@ img { vertical-align: middle; }
     width: 600px;
     top: -120px;
     left: -320px;
+}
+
+#goo{
+    position: absolute;
+    width: 250px;
+    top: -50px;
+    right: -240px;
 }
 
 h3{
