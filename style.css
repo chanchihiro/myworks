@@ -188,7 +188,8 @@ img { vertical-align: middle; }
 .comment{
     color: #000;
     text-align: center;
-    margin: 50px 0 70px;
+    padding-top:10px; 
+    margin: 50px 0 150px;
     font-weight: normal;
     background-color: #fff;
     position: relative;
@@ -207,7 +208,7 @@ img { vertical-align: middle; }
 #huki{
     position: absolute;
     width: 900px;
-    height: 250px;
+    height: 350px;
     top: -30px;
     left: 0;
 }
@@ -224,6 +225,13 @@ img { vertical-align: middle; }
     width: 250px;
     top: 100px;
     right: -220px;
+}
+
+#pachi{
+    position: absolute;
+    width: 200px;
+    top: 350px;
+    left: -220px;
 }
 
 h3{
