@@ -159,6 +159,15 @@ img { vertical-align: middle; }
     margin: 30px 0;
     border : 7px solid #000;
     font-weight: bold;
+    background-color: #fff;
+    position: relative;
+}
+
+#dodon{
+    position: absolute;
+    width: 600px;
+    top: -120px;
+    left: -320px;
 }
 
 h3{
