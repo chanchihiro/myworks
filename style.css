@@ -67,6 +67,7 @@ img { vertical-align: middle; }
 
 .filter-form{
     float: right;
+    margin-top: 12px;
 }
 
 .form-item{
@@ -77,8 +78,10 @@ img { vertical-align: middle; }
     cursor:pointer;
     display: inline-block;
     font-weight: normal;
-    margin-left: 0em;
-    padding:0 0.25em;
+    margin-left: 1em;
+    letter-spacing: 2px;
+    padding:0 0;
+    font-size: 24px;
 }
 
 .filter-form label.ui-state-focus{
@@ -192,6 +195,15 @@ img { vertical-align: middle; }
     overflow: visible;
 }
 
+.namae{
+    z-index: 10;
+    text-shadow: #fff 5px 5px 0px, #fff -5px 5px 0px,#fff 5px -5px 0px, #fff -5px -5px 0px;
+}
+
+.dodon{
+    z-index: 2;
+}
+
 #huki{
     position: absolute;
     width: 900px;
@@ -219,4 +231,8 @@ h3{
     font-weight: normal;
     padding: 0;
     margin: 20px 0 10px;
+}
+
+input{
+    display: none;
 }

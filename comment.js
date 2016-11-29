@@ -13,10 +13,10 @@ $(function(){
 	});
 	$("#filter-nature").on("click",function(){
 		$(".namae").empty();
-		$(".namae").append("<h3>APPLICATION</h3><p>基本的にwebの技術しかないので、ハイブリッドモバイルアプリ開発サービスのMonacaを使用しています。<br>Monaca / Cordova / javascript / HTML / CSS / Prott / XD</p>");
+		$(".namae").append("<h3>APPLICATION</h3><p>ハイブリッドモバイルアプリ開発サービスのMonacaを使用しています。<br>Monaca / Cordova / javascript / HTML / CSS / Prott / XD</p>");
 	});
 		$("#filter-plantes").on("click",function(){
 		$(".namae").empty();
-		$(".namae").append("<h3>ZINE</h3><p>雑誌はどちゃくそ好きで、毎月気に入った雑誌を4冊買うのが楽しみで生きています。<br>Illustlator / Photoshop / Interview / Communication</p>");
+		$(".namae").append("<h3>ZINE</h3><p>雑誌がどちゃくそ好きで、毎月気に入った雑誌を4冊買うのが楽しみで生きています。<br>Illustlator / Photoshop / Interview / Communication</p>");
 	});
 });
