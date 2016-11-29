@@ -14,6 +14,9 @@ body {
     height:100%;
     margin: 0;
     font-family: comic;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     text-shadow: #fff 5px 5px 0px, #fff -5px 5px 0px,#fff 5px -5px 0px, #fff -5px -5px 0px;
     }
 h1 { 
@@ -35,7 +38,7 @@ img { vertical-align: middle; }
     -webkit-background-size: 10px 10px;
     background-size: 10px 10px;
     margin: 0;
-    height: 30px;
+    height: 50px;
 }
 .page-header > .inner {
     width: 950px;
@@ -102,13 +105,23 @@ img { vertical-align: middle; }
 /*追加読み込みボタン*/
 .load-more{
     background-color: #fff;
-    border:1px solid rgb(230);
     display: block;
     padding:1em 0;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
+button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
 
 
 /* Page main */
@@ -243,4 +256,8 @@ h3{
 
 input{
     display: none;
+}
+
+button > img{
+    width: 500px;
 }
