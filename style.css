@@ -7,7 +7,12 @@
 @charset "UTF-8";
 
 /* Base */
-html { font-family: "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif; font-size: 14px; line-height: 1.5; height: 100%;margin: 0;}
+html { font-family: "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif; 
+        font-size: 14px;
+        line-height: 1.5; 
+        height: 100%;
+        margin: 0;
+    }
 body { 
     background-color: #fff;
     color: rgb(0,0,0); 
