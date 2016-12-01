@@ -9,16 +9,16 @@
             "large": "img/comic1.png"
         }
     },
-    {
-        "title": "soundsgood",
-        "caption":"soundsgood",
-        "url":"sounds.html",
-        "category":"apri",
-        "images": {
-            "thumb": "img/soundsgood2.png",
-            "large": "img/green.png"
-        }
-    },
+    // {
+    //     "title": "soundsgood",
+    //     "caption":"soundsgood",
+    //     "url":"sounds.html",
+    //     "category":"apri",
+    //     "images": {
+    //         "thumb": "img/soundsgood2.png",
+    //         "large": "img/green.png"
+    //     }
+    // },
     {
         "title": "crazy",
         "caption":"web hackathon",
