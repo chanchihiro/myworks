@@ -1,5 +1,15 @@
 [
     {
+        "title": "logo_chiristmas",
+        "caption":"logos",
+        "category":"dtp",
+        "url":"logo_ch.html",
+        "images": {
+            "thumb": "logo_christmas.png",
+            "large": "img/comic1.png"
+        }
+    },
+    {
         "title": "portfolio",
         "caption":"products",
         "category":"web",
