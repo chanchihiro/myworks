@@ -1,5 +1,15 @@
 [
     {
+        "title": "mikke!",
+        "caption":"mikke!",
+        "category":"apri",
+        "url":"mikke.html",
+        "images": {
+            "thumb": "img/Splash34.png",
+            "large": "img/Splash34.png"
+        }
+    },
+    {
         "title": "familiet",
         "caption":"familiet",
         "category":"apri",
