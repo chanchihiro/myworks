@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>2015-2016</title>
+<link rel="stylesheet" href="modal.css">
+<script src="jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <h1>" mikke "</h1>
+    <div class="image">
+        <img src="img/mikke-icon.png" alt="" class="app">
+        <img src="img/Splash5.png" alt="" class="app">
+        <img src="img/Splash34.png" alt="" class="app">
+    </div>
+    <div class="text">
+        <div class="production">
+            <h2>- Production -</h2>
+            <p>ゼミに入った初年度に作成したアプリです。"カメラロールの写真は思い出を喚起させる役割があるのでもっと大事にされるべきである"という哲学のもと、偶発的に写真に出会って思い出が蘇る体験ができるアプリを試作していました。女子大生のペルソナを立てながら新しいカメラロール体験を考えました。</p>
+        </div>
+        <div class="overview">
+            <h2>- Overview -</h2>
+            <p>企画と調査からのデザイン、資料作成、プレゼンを担当しました。</p>
+        </div>
+    </div>
+</body>
+</html>

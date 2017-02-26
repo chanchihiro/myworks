@@ -1,5 +1,15 @@
 [
     {
+        "title": "リリベル",
+        "caption":"リリベル",
+        "category":"apri",
+        "url":"rili.html",
+        "images": {
+            "thumb": "img/rili4.png",
+            "large": "img/rili4.png"
+        }
+    },
+    {
         "title": "mikke!",
         "caption":"mikke!",
         "category":"apri",
