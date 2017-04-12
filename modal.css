@@ -78,12 +78,18 @@ p{
 }
 
 #toyou{
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 #you{
 	margin-bottom: 50px;
 	width: 560px;
 	height: 315px;
+}
+
+#you2 {
+	margin-bottom: 50px;
+	width: 800px;
+	height: 600px;
 }
 

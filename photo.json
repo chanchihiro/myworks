@@ -1,5 +1,15 @@
 [
     {
+        "title": "メニュブ",
+        "caption":"メニュブ",
+        "category":"apri",
+        "url":"menyubu.html",
+        "images": {
+            "thumb": "img/menyubu1.png",
+            "large": "img/menyubu1.png"
+        }
+    },
+    {
         "title": "リリベル",
         "caption":"リリベル",
         "category":"apri",
